@@ -74,7 +74,7 @@
         max-height: 436px;
         background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/Bgimage-tab.jpg);
+        rgba(46, 47, 66, 0.7)), url(../images/zastavka1.jpg);
     }
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -82,7 +82,7 @@
     .banner{
         background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/Bgimage-tab2x.jpg);
+        rgba(46, 47, 66, 0.7)), url(../images/zastavka1.jpg);
     }
   }
     .banner{
@@ -100,7 +100,7 @@
         width: 408px;
         min-height: 586px;
     }
-    .important-points-section{
+    /* .important-points-section{
         padding-bottom: 96px;
     }
     .important-points{
@@ -117,9 +117,13 @@
     }
     .important-points li:not(:first-child){
         margin-top: 0;
+    } */
+    .target{
+        max-width: 768px;
     }
     .teamcards{
         padding-bottom: 105px;
+        max-width: 768px;
     }
     .teamcards-list{
         padding-bottom: 0;
@@ -132,10 +136,10 @@
     .teamcards-member{
         width:  calc((100% - 24px) / 2);
     }
-    .customer-services-list{
+    /* .customer-services-list{
         gap: 24px;
         row-gap: 72px;
-    }
+    } */
     .footer-content{
         margin-left: 108px;
     }
