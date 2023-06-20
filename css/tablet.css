@@ -170,7 +170,22 @@
         margin: 0;
         margin-left: 24px;
     }
-    .button-list{
+    .museum-one{
+        max-width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .museum-two{
+        max-width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .museum-three{
+        max-width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* .button-list{
         margin-bottom: 64px;
         justify-content: center;
     }
@@ -185,11 +200,11 @@
         width: 356px;
     }
     .image img{
-        width: 356px !important;  
+        width: 356px !important;   */
         /* Так, я знаю, це негарно так робити, але я писав це о 2-й годині ночі, 
         за день до того, як я оптимізував картинки.
          Мені потрібно було швидке рішення */
-    }
+    /* }
     .image-card{
         width: 356px;
     }
@@ -201,5 +216,5 @@
     }
     .image-list-member:not(:last-child){
         margin-bottom: 72px;
-    }
+    } */
 }

@@ -236,7 +236,22 @@
     .footer-input{
         width: 264px;
     }
-    .image-list{
+    .museum-one{
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .museum-two{
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .museum-three{
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* .image-list{
         gap: 0;
         justify-content: initial;
     }
@@ -256,5 +271,5 @@
 }
     .footer-logo{
         text-align: initial;
-    }
+    } */
 }
