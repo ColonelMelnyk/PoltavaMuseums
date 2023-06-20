@@ -413,7 +413,7 @@ nav{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -805,7 +805,7 @@ label{
 /* target index.html */
 .target{
     padding-top: 120px;
-    padding-bottom: 240px;
+    padding-bottom: 120px;
     background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Target-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;

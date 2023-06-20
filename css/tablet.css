@@ -140,6 +140,11 @@
         gap: 24px;
         row-gap: 72px;
     } */
+    .footer{
+        max-width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .footer-content{
         margin-left: 108px;
     }

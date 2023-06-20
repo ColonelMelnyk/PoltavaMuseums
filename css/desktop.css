@@ -170,10 +170,21 @@
     } */
     .activities{
         display: flex;
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .target{
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .teamcards{
         padding-top: 120px;
         padding-bottom: 120px;
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .teamcards-list{
@@ -195,6 +206,11 @@
         flex-wrap: initial;
         justify-content: initial;
     } */
+    .footer{
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .container-footer{
         flex-wrap: initial;
         justify-content: initial;
