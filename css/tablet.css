@@ -6,10 +6,10 @@
     --text-color: #434455;
     --title-text-color: #2E2F42;
     --subtle-dark-color: #8E8F99;
-    --active-color: #4D5AE5;
+    --active-color: #F87719;
     --accent-color: #E7E9FC;
     --light-white-color: #F4F4FD;
-    --second-active-color: #404BBF;
+    --second-active-color: #F84119;
     --card-set-gap: 20px;
     --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -70,7 +70,7 @@
         display: none;
     }
     .banner{
-        max-width: 768px;
+        /* max-width: 768px; */
         max-height: 436px;
         background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -100,30 +100,31 @@
         width: 408px;
         min-height: 586px;
     }
-    /* .important-points-section{
-        padding-bottom: 96px;
-    }
-    .important-points{
+    .activities {
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Activities-backgroundtab.jpg);
         display: flex;
-        flex-wrap: wrap;
-        gap: 24px;
+        /* max-width: 768px; */
+        margin-right: auto;
+        margin-left: auto;
     }
-    .important-points-title{
-        text-align: initial;
-    }
-    .important-points li{
-        width: calc((100% - 24px) / 2);
-        margin: 0;
-    }
-    .important-points li:not(:first-child){
-        margin-top: 0;
-    } */
     .target{
-        max-width: 768px;
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Target-backgroundtab.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .target-list{
+        display: flex;
+        
+    }
+    .target-list li:not(:last-child){
+        margin-right: 24px;
     }
     .teamcards{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Teamcards-backgroundtab.jpg);
         padding-bottom: 105px;
-        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        /* max-width: 768px; */
     }
     .teamcards-list{
         padding-bottom: 0;
@@ -136,12 +137,8 @@
     .teamcards-member{
         width:  calc((100% - 24px) / 2);
     }
-    /* .customer-services-list{
-        gap: 24px;
-        row-gap: 72px;
-    } */
     .footer{
-        max-width: 768px;
+        /* max-width: 768px; */
         margin-right: auto;
         margin-left: auto;
     }
@@ -171,50 +168,22 @@
         margin-left: 24px;
     }
     .museum-one{
-        max-width: 768px;
+        /* max-width: 768px; */
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//MuseumOne-backgroundtab.jpg);
         margin-right: auto;
         margin-left: auto;
     }
     .museum-two{
-        max-width: 768px;
+        /* max-width: 768px; */
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//MuseumTwo-backgroundtab.jpg);
         margin-right: auto;
         margin-left: auto;
     }
     .museum-three{
-        max-width: 768px;
+        /* max-width: 768px; */
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//MuseumThree-backgroundtab.jpg);
         margin-right: auto;
         margin-left: auto;
     }
-    /* .button-list{
-        margin-bottom: 64px;
-        justify-content: center;
-    }
-    .image-list{
-        justify-content: initial;
-        gap: 0;
-    }
-    .image-list-member{
-        flex-basis: 356px;
-    }
-    .image{
-        width: 356px;
-    }
-    .image img{
-        width: 356px !important;   */
-        /* Так, я знаю, це негарно так робити, але я писав це о 2-й годині ночі, 
-        за день до того, як я оптимізував картинки.
-         Мені потрібно було швидке рішення */
-    /* }
-    .image-card{
-        width: 356px;
-    }
-    .image-card-content{
-        width: 356px;
-    }
-    .image-list-member:not(:nth-child(2n+1)){
-        margin-left: 24px;
-    }
-    .image-list-member:not(:last-child){
-        margin-bottom: 72px;
-    } */
+   
 }
