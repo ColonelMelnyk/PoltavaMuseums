@@ -186,7 +186,7 @@ nav{
 
 }
 .menu-open-icon{
-    stroke: #000000;
+    stroke: var(--active-color);
 }
 .mob-menu{
     position: fixed;
@@ -950,7 +950,6 @@ label{
 .museum-schedule{
     text-align: center;
 }
-/*buttons and image lists*/
 /*image-list portfolio.html*/
 .image-list{
     display: flex;
@@ -1006,7 +1005,33 @@ label{
 .image-card{
     transition: box-shadow var(--animation-duration) var(--animation-timing-function);
 }
-
+/* contacts.html styles */
+.disposition{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Disposition-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.disposition-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--light-white-color);
+    margin-bottom: 24px;
+}
+.disposition-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: var(--light-white-color);
+}
 /*-------------hover and active styles for both pages, overlays, and stuff-------------*/
 
 .nav-link-current{
@@ -1085,4 +1110,9 @@ label{
     transform: translateY(0);
  }
 
-
+.width-fix{
+    max-width: 100%;
+}
+.text-fix{
+    text-align: center;
+}
