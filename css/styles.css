@@ -39,6 +39,7 @@ img {
 }
 .img-fix{
     height: 321px;
+   
 }
 h1,h2,h3,h4,h5,h6, ul, li, p {
     margin: 0;
@@ -729,7 +730,7 @@ label{
     padding-bottom: 120px;
     display: flex;
     padding-top: 120px;
-    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Activities-backgroundmob.jpg);
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Activities-backgroundmob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -757,7 +758,7 @@ label{
 .target{
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Target-backgroundmob.jpg);
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Target-backgroundmob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -800,7 +801,7 @@ label{
 .teamcards{
     background: var(--light-white-color);
     padding-top: 96px;
-    background-image:  linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Teamcards-backgroundmob.jpg);
+    background-image:  linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Teamcards-backgroundmob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -890,7 +891,7 @@ label{
 .museum-one{
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/MuseumOne-backgroundmob.jpg);
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumOne-backgroundmob.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -898,7 +899,7 @@ label{
 .museum-two{
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/MuseumTwo-backgroundmob.jpg);
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumTwo-backgroundmob.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -906,7 +907,7 @@ label{
 .museum-three{
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/MuseumThree-backgroundmob.jpg);
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumThree-backgroundmob.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

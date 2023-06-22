@@ -130,14 +130,14 @@
         min-height: 584px;
     }
     .activities{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Activities-background.jpg);
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Activities-background.jpg);
         display: flex;
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
     }
     .target{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Target-background.jpg);
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Target-background.jpg);
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
@@ -150,7 +150,7 @@
         margin-right: 48px;
     }
     .teamcards{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//Teamcards-background.jpg);
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Teamcards-background.jpg);
         padding-top: 120px;
         padding-bottom: 120px;
         max-width: 2560px;
@@ -203,19 +203,19 @@
         width: 264px;
     }
     .museum-one{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//MuseumOne-background.jpg);
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumOne-background.jpg);
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
     }
     .museum-two{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//MuseumTwo-background.jpg);
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumTwo-background.jpg);
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
     }
     .museum-three{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images//MuseumThree-background.jpg);
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumThree-background.jpg);
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;

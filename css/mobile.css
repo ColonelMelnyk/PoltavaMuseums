@@ -24,5 +24,18 @@
    .social-link-list-menu{
        gap: initial;
        justify-content: space-between;
+       
+   }
+   .image-list-member{
+      max-width: 320px;
+   }
+   .image-card{
+      max-width: 320px;
+   }
+   .image{
+      max-width: 320px;
+   }
+   .img-fix{
+      max-width: 320px;
    }
 }
