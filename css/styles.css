@@ -1023,6 +1023,7 @@ label{
     text-transform: capitalize;
     color: var(--light-white-color);
     margin-bottom: 24px;
+    margin-top: 16px;
 }
 .disposition-text{
     font-weight: 400;
